@@ -59,3 +59,7 @@ footer {
     color: aliceblue;
     padding: 1rem;
 }
+
+.filter {
+    display: grid;
+}
