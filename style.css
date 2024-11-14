@@ -1,4 +1,9 @@
-/* body {
-    background-image: url('sea.jpg');
-    background-repeat: no-repeat;
-} */
+body {
+    background: linear-gradient(0deg, rgb(28, 36, 44), rgba(28, 36, 44, 0.95), transparent), url(sea.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    color: RGBA(176, 227, 255, 0.8);
+    font-family: sans-serif;
+}
