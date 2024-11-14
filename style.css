@@ -7,3 +7,47 @@ body {
     color: RGBA(176, 227, 255, 0.8);
     font-family: sans-serif;
 }
+
+a {
+    color: #c79600;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffcb3d;
+    transition: 0.5s;
+}
+
+p {
+    line-height: 1.5;
+}
+
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 24px 0;
+    position: relative;
+}
+
+.topbar-right, .topbar-left {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.panel {
+    background-color: #212427;
+    border: 1px solid #373c41;
+    border-radius: 8px;
+    margin-bottom: 16px;
+}
+
+.panel-head {
+    background: transparent;
+    border: 0;
+    color: #c79600;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.3em;
+}
