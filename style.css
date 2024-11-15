@@ -26,11 +26,17 @@ p {
     line-height: 1.5;
 }
 
+img {
+    vertical-align: middle;
+    border: 0;
+}
+
 .container {
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
+    width: 1200px;
 }
 
 .topbar {
@@ -96,6 +102,106 @@ p {
     text-align: center;
 }
 
+.atomheader {
+    display: flex;
+    margin-left: -7px;
+    margin-right: -7px;
+    gap: 8px;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.header-logo {
+    width: 33.33333333%;
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    height: 280px;
+    width: 250px;
+}
+
+.header-content {
+    width: 66.66666667%;
+}
+
+.header-statistics {
+    display: flex;
+    justify-content: space-between;
+}
+
+.server {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.server-icon {
+    color: #ffcb3d;
+    font-size: 5em;
+}
+
+.server-name {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 1.4em;
+}
+
+.server-online {
+    color: #ffcb3d;
+    font-weight: bold;
+}
+
+#minecraft-online {
+    background-color: #ffcb3d;
+    border-radius: 25px;
+    padding: 0 8px;
+    color: #373c41;
+}
+
+.socials {
+    display: flex;
+    gap: 8px;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-icon {
+    color: #ffcb3d;
+    font-size: 3.5em;
+    text-shadow: 0px 0px 7px #3DD1FF33;
+}
+
+.social-status {
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 25px;
+    padding: 0 8px;
+    color: #FFFFFF;
+    font-weight: 600;
+    position: relative;
+    width: 64px;
+    height: 28px;
+}
+
+.social-text {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    display: block;
+    width: max-content;
+    height: max-content;
+}
+
 .panel {
     background-color: #212427;
     border: 1px solid #373c41;
@@ -111,36 +217,3 @@ p {
     text-transform: uppercase;
     font-size: 1.3em;
 }
-
-/* :root {
-    --background: rgb(28, 36, 44);
-    --background-transparent: rgba(28, 36, 44, 0.85);
-    --background-mid-transparent: rgba(28, 36, 44, 0.95);
-    --bg-url: url(sea.jpg);
-    --footer: #141820;
-    --panel: #212427;
-    --border: #373c41;
-    --transparent: rgba(255, 255, 255, 0.15);
-    --main-color: #c79600;
-    --color-accent: #ffcb3d;
-    --white: #FFFFFF;
-    --text: RGBA(176, 227, 255, 0.8);
-    --red: #D43246;
-    --green: #41B95B;
-    --spacing: 8px;
-  
-    --main-color-hover: #fff56c;
-    --red-hover: #B92B3D;
-    --green-hover: #3DAA55;
-    --transparent-hover: rgba(187, 187, 187, 0.15);
-}
-  
-.topbar::after {
-    content: " ";
-    position: absolute;
-    height: 1px;
-    width: 100%;
-    background: linear-gradient(90deg, transparent, rgb(255, 255, 255, 0.05), transparent);
-    bottom: -24px;
-}
-*/
