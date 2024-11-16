@@ -24,11 +24,20 @@ a:hover {
 
 p {
     line-height: 1.5;
+    margin: 0 0 10px;
 }
 
 img {
     vertical-align: middle;
     border: 0;
+}
+
+figure {
+    margin: 0;
+}
+
+b {
+    font-weight: 700;
 }
 
 .container {
@@ -216,4 +225,163 @@ img {
     font-weight: bold;
     text-transform: uppercase;
     font-size: 1.3em;
+    padding: 10px 15px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    text-align: center;
 }
+
+.panel-body {
+    padding: 15px;
+}
+
+.navigation-item:first-child {
+    margin-top: 0;
+}
+
+.navigation-item {
+    margin: 8px 0;
+    display: flow-root;
+    border-radius: 4px;
+}
+
+.navigation-item a {
+    padding: 24px 16px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+.navigation-icon {
+    width: 44px;
+    height: 44px;
+    margin: -44px 8px;
+    margin-left: 0;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.sidebar {
+    padding-right: 8px;
+    padding-left: 8px;
+    width: 25%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+}
+
+.panel {
+    position: relative;
+    overflow: hidden;
+    border: none;
+    z-index: 1;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.05);
+}
+
+.modal {
+    padding-right: 8px;
+    padding-left: 8px;
+    width: 72%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+}
+
+.home-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.home-header-sub-header {
+    color: #FFFFFF;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.home-header-header {
+    color: #ffcb3d;
+    font-weight: bold;
+    font-size: 1.6em;
+}
+
+.donation-goal {
+    display: flex;
+    background: #373c41;
+    margin-right: -16px;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    padding: 8px 16px;
+    padding-left: 8px;
+    align-items: center;
+    gap: 8px;
+}
+
+.goal-progress {
+    position: relative;
+    width: 54px;
+    height: 54px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.goal-head {
+    color: #ffcb3d;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.8em;
+}
+
+.goal-sub-head {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+.vintepixels {
+    font-size: 20px;
+}
+
+.payment-methods {
+    display: flex;
+    align-items: center;
+    background: #373c41;
+    padding: 16px;
+    border-radius: 8px;
+    gap: 8px;
+}
+
+/* :root {
+    --background: rgb(28, 36, 44);
+    --background-transparent: rgba(28, 36, 44, 0.85);
+    --background-mid-transparent: rgba(28, 36, 44, 0.95);
+    --bg-url: url(sea.jpg);
+    --footer: #141820;
+    --panel: #212427;
+    --border: #373c41;
+    --transparent: rgba(255, 255, 255, 0.15);
+    --main-color: #c79600;
+    --color-accent: #ffcb3d;
+    --white: #FFFFFF;
+    --text: RGBA(176, 227, 255, 0.8);
+    --red: #D43246;
+    --green: #41B95B;
+    --spacing: 8px;
+  
+    --main-color-hover: #fff56c;
+    --red-hover: #B92B3D;
+    --green-hover: #3DAA55;
+    --transparent-hover: rgba(187, 187, 187, 0.15);
+}
+*/
