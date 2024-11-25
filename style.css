@@ -334,6 +334,18 @@ b {
     z-index: 1;
     font-weight: bold;
     color: #FFFFFF;
+    background-color: #ffcb3d;
+    border-radius: 50%;
+}
+
+.goal-progress-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    background-color: #373c41;
+    border-radius: 50%;
 }
 
 .goal-head {
@@ -422,3 +434,103 @@ b {
     font-size: 0.9em;
     margin-top: 8px;
 }
+
+footer {
+    background: #141820;
+    padding: 64px;
+}
+
+.footer-rows {
+    display: flex;
+    gap: 64px;
+}
+
+.footer-col {
+    flex: 1;
+}
+
+.footer-copyright {
+    background: rgb(28, 36, 44);
+    border-radius: 8px;
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 64px;
+    margin-bottom: -32px;
+    align-items: center;
+}
+
+.footer-title {
+    font-weight: bold;
+    color: #ffcb3d;
+    font-size: 1.4em;
+    font-style: italic;
+    margin-bottom: 8px;
+}
+
+.sponsor-img {
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sponsor-img img {
+    max-width: 100%;
+    max-height: 100%;
+    margin-top: -10px;
+}
+
+.footer-content-no-link {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.footer-righs {
+    display: flex;
+    flex-direction: column;
+}
+
+small {
+    font-size: 85%;
+}
+
+.made-by-haisuu a {
+    font-style: italic;
+    font-weight: bold;
+    color: #373c41;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.pre-footer {
+    height: 60vh;
+}
+
+/* :root {
+    --background: rgb(28, 36, 44);
+    --background-transparent: rgba(28, 36, 44, 0.85);
+    --background-mid-transparent: rgba(28, 36, 44, 0.95);
+    --bg-url: url(sea.jpg);
+    --footer: #141820;
+    --panel: #212427;
+    --border: #373c41;
+    --transparent: rgba(255, 255, 255, 0.15);
+    --main-color: #c79600;
+    --color-accent: #ffcb3d;
+    --white: #FFFFFF;
+    --text: RGBA(176, 227, 255, 0.8);
+    --red: #D43246;
+    --green: #41B95B;
+    --spacing: 8px;
+  
+    --main-color-hover: #fff56c;
+    --red-hover: #B92B3D;
+    --green-hover: #3DAA55;
+    --transparent-hover: rgba(187, 187, 187, 0.15);
+}
+*/
