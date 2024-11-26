@@ -1,0 +1,35 @@
+@media (min-width: 1200px) {
+    .container {
+      width: 1200px;
+    }
+}
+
+@media (max-width: 768px) {
+    .atomheader {
+      flex-direction: column;
+    }
+  
+    .header-logo, .header-content {
+      width: 100%;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .socials {
+      display: none;
+    }
+  
+}
+
+@media (max-width: 768px) {
+    .goal-text {
+      display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer-rows {
+      flex-direction: column;
+    }
+}
