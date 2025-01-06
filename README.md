@@ -4,6 +4,7 @@ Um site desenvolvido para um servidor de One Piece no Minecraft chamado de One P
 ## Tecnologias:
 - HTML
 - CSS
+- JavaScript (WIP)
 
 ## Deploy:
 N/A
